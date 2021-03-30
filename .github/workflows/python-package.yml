@@ -24,12 +24,12 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
         
-        - name: create temp password file
-    env:
-        DBPASSWORD: ${{ secrets.DBPASSWORD }}
-    run: |
-        mkdir -p sources/database/
-        echo "DBPASSWORD = '"$DBPASSWORD"'" > sources/database/passwords.py
+    - name: create temp password file
+      env:
+          DBPASSWORD: ${{ secrets.DBPASSWORD }}
+      run: |
+          mkdir -p sources/database/
+          echo "DBPASSWORD = '"$DBPASSWORD"'" > sources/database/passwords.py
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
