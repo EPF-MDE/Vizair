@@ -1,4 +1,4 @@
-import requests
+#import requests
 
 def doGet(URL, params = ""):
     webresult = requests.get(URL, params)
