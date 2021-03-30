@@ -1,3 +1,4 @@
+#Importing requests
 import requests
 
 def doGet(URL, params = ""):
