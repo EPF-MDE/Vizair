@@ -1,5 +1,5 @@
 import pytest
-#import requests
+import requests
 from sources import webrequests
 
 def test_doGet():
