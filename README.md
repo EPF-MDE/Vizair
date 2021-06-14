@@ -39,8 +39,3 @@ This README explains how to run the code of the Heatmap.
 
 * 0.1
     * Initial Release
-
-## Acknowledgments
-
-//Put references here if any were used
-
