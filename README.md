@@ -1,9 +1,6 @@
-# Givair Code explained: HEATMAP
+# Givair Code explained
 
-
-## Description
-
-This README explains how to run the code of the Heatmap.
+This README explains how to run two codes: the Heatmap and the Predictive model.
 
 ### Dependencies
 
@@ -11,11 +8,13 @@ This README explains how to run the code of the Heatmap.
 * Datetime (pip install datetime)
 * Tkinter (pip install tkinter)
 
+## The Heatmap 
+
 ### Installing
 
 * Download the zip file containing: Heatmap_Givair.ipynb, arrondissements-occitanie.json.txt, Data_Sensors.csv
 
-### The Heatmap 
+### Description
 
 * Open Jupyter Notebook. 
 * You need to run the Heatmap_Givair.ipynb with, in the same folder, the 2 other files because data are retrieved from these files. Otherwise, you will get errors from the code when running it. 
@@ -26,6 +25,17 @@ This README explains how to run the code of the Heatmap.
 * You will need to run the cells that generate the heatmap, it should be display in little in the "output" section. 
 * To have the map in a new window, you run the last cell that save the generated heatmap and save automatically in a .html format, and also automatically, a new window will pop, displaying this time the map in a new tab of your browser. 
 
+## The Predictive model
+
+### Installing
+
+* Download the zip file ARIMAcode.zip containing: ARIMAmodel.ipynb and the res.csv containing the data.
+
+### Description
+
+* Open Jupyter Notebook. 
+* Change the path to access the data file that the predictive model is going to use. 
+* Run the code in the order that the cells appear.
 
 ## Authors
 
@@ -39,3 +49,8 @@ This README explains how to run the code of the Heatmap.
 
 * 0.1
     * Initial Release
+
+## Acknowledgments
+
+//Put references here if any were used
+
