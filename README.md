@@ -1,9 +1,9 @@
-# Givair Code explained
+# Givair Code explained: HEATMAP
 
 
 ## Description
 
-This README explains how to run two codes: the Heatmap and the Predictive model.
+This README explains how to run the code of the Heatmap.
 
 ### Dependencies
 
@@ -25,9 +25,6 @@ This README explains how to run two codes: the Heatmap and the Predictive model.
 * After that, you keep running the cells, and another window will open so you can select the particule you want to be displayed in the heatmap.
 * You will need to run the cells that generate the heatmap, it should be display in little in the "output" section. 
 * To have the map in a new window, you run the last cell that save the generated heatmap and save automatically in a .html format, and also automatically, a new window will pop, displaying this time the map in a new tab of your browser. 
-
-### The Predictive model
-
 
 
 ## Authors
