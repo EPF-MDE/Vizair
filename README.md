@@ -35,7 +35,7 @@ This README explains how to run two codes: the Heatmap and the Predictive model.
 * BIANCHI Audrey
 * RAMIREZ Melisa
 * LORRAIN Yvan
-* GENIX JUN OScar
+* GENIX JUN Oscar
 * CHENEL Lucas
 
 ## Version History
